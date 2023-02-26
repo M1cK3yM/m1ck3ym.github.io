@@ -1,0 +1,30 @@
+body {
+    border: none;
+}
+.login {
+    align-items: center;
+}
+.nav {
+    border: none;
+    height: 40px;
+    background-color: lightblue;
+}
+.login > div {
+    display: flex;
+    width: fit-content;
+    
+}
+.show:hover {
+    color: rgb(77, 184, 219);
+    cursor: pointer;
+}
+.loginButton {
+    font-size: 15px;
+    margin-top: 10px;
+    height: 25px;
+    width: 50px;
+    background-color: rgba(34, 75, 255, 0.774);
+    color: white;
+    border: solid 1px;
+    border-radius: 4px;
+}
